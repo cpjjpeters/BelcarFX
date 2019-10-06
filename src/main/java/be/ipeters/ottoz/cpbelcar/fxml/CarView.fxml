@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="959.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.be.ipeters.ottoz.cpbelcar.controllers.CarViewController">
+   <children>
+      <Button fx:id="btnReturn" layoutX="769.0" layoutY="24.0" mnemonicParsing="false" onAction="#back2StartScreenButtonPushed" text="RETURN" />
+      <Button fx:id="btnExit" layoutX="871.0" layoutY="24.0" mnemonicParsing="false" onAction="#handleBtnExitAction" text="EXIT" />
+      <Button fx:id="refreshBtn" layoutX="57.0" layoutY="24.0" mnemonicParsing="false" onAction="#refreshTable" text="REFRESH" />
+      <Button fx:id="loadBtn" layoutX="142.0" layoutY="24.0" mnemonicParsing="false" onAction="#loadTable" text="LOAD" />
+      <Label layoutX="290.0" layoutY="23.0" prefHeight="27.0" prefWidth="466.0" text="LOAD TABLEVIEW WITH MYSQL DATA  - CAR">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tvCar" layoutX="33.0" layoutY="87.0" prefHeight="310.0" prefWidth="861.0">
+         <columns>
+            <TableColumn fx:id="colCarName" prefWidth="112.0" text="car_name" />
+            <TableColumn fx:id="colStock" prefWidth="86.0" text="stock" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

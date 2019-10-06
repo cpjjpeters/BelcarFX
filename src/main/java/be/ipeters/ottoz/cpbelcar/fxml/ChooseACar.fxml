@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.geometry.Insets?>
+<AnchorPane prefHeight="409.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.be.ipeters.ottoz.cpbelcar.controllers.ChooseACarController">
+
+    <children>
+      <TabPane fx:id="tabPane" layoutX="260.0" layoutY="72.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <fx:include fx:id="consoleTab" source="tabs/ConsoleTab.fxml" />
+            <fx:include fx:id="LoggerTab" source="tabs/LoggerTab.fxml" />
+<!--          <Tab fx:id="tab1" text="Tab 1">-->
+<!--            <content>-->
+<!--              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="222.0" prefWidth="200.0" />-->
+<!--            </content>-->
+<!--          </Tab>-->
+<!--          <Tab fx:id="tab2" text="Tab 2">-->
+<!--            <content>-->
+<!--              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />-->
+<!--            </content>-->
+<!--          </Tab>-->
+        </tabs>
+      </TabPane>
+      <Label layoutX="111.0" layoutY="28.0" prefHeight="27.0" prefWidth="466.0" text="Choose a CAR">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnExit" layoutX="692.0" layoutY="29.0" mnemonicParsing="false" onAction="#handleBtnExitAction" text="EXIT" />
+      <Button fx:id="btnReturn" layoutX="590.0" layoutY="29.0" mnemonicParsing="false" onAction="#back2StartScreenButtonPushed" text="RETURN" />
+   </children>
+</AnchorPane>

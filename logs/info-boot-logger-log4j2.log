@@ -1,0 +1,26 @@
+2019-10-06 13:43:17,714 INFO o.s.b.StartupInfoLogger [JavaFX-Launcher] Starting application on DESKTOP-0NGMO3G with PID 41836 (started by cpjjp in D:\workspace\BelcarFX)
+2019-10-06 13:43:17,722 INFO o.s.b.SpringApplication [JavaFX-Launcher] No active profile set, falling back to default profiles: default
+2019-10-06 13:43:18,875 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [JavaFX-Launcher] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$212a520a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 13:43:18,885 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [JavaFX-Launcher] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1aa04d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-06 13:43:19,639 INFO o.s.b.w.e.t.TomcatWebServer [JavaFX-Launcher] Tomcat initialized with port(s): 8080 (http)
+2019-10-06 13:43:19,656 INFO o.a.j.l.DirectJDKLog [JavaFX-Launcher] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-06 13:43:19,668 INFO o.a.j.l.DirectJDKLog [JavaFX-Launcher] Starting service [Tomcat]
+2019-10-06 13:43:19,669 INFO o.a.j.l.DirectJDKLog [JavaFX-Launcher] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-06 13:43:19,800 INFO o.a.j.l.DirectJDKLog [JavaFX-Launcher] Initializing Spring embedded WebApplicationContext
+2019-10-06 13:43:19,801 DEBUG o.s.b.w.s.c.ServletWebServerApplicationContext [JavaFX-Launcher] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-10-06 13:43:19,801 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [JavaFX-Launcher] Root WebApplicationContext: initialization completed in 2029 ms
+2019-10-06 13:43:20,818 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [JavaFX-Launcher] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-06 13:43:20,957 INFO o.s.s.c.ExecutorConfigurationSupport [JavaFX-Launcher] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-06 13:43:20,979 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [JavaFX-Launcher] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-06 13:43:21,075 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [JavaFX-Launcher] 57 mappings in 'requestMappingHandlerMapping'
+2019-10-06 13:43:21,117 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [JavaFX-Launcher] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-06 13:43:21,129 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [JavaFX-Launcher] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-06 13:43:21,495 INFO o.a.j.l.DirectJDKLog [JavaFX-Launcher] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-06 13:43:21,518 INFO o.s.b.w.e.t.TomcatWebServer [JavaFX-Launcher] Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-06 13:43:21,521 INFO o.s.b.StartupInfoLogger [JavaFX-Launcher] Started application in 4.335 seconds (JVM running for 5.14)
+2019-10-06 13:43:21,704 INFO m.j.b.i.o.c.c.BelcarController [JavaFX-Launcher] BelcarController, initialize
+2019-10-06 13:43:23,421 INFO m.j.b.i.o.c.c.BelcarController [JavaFX Application Thread] change2ChooseACarButtonPushed.
+2019-10-06 13:43:23,501 INFO m.j.b.i.o.c.c.ChooseACarController [JavaFX Application Thread] ChooseACarController init
+2019-10-06 13:44:42,128 INFO m.j.b.i.o.c.c.BelcarController [JavaFX Application Thread] BelcarController, initialize
+2019-10-06 13:44:43,457 INFO o.s.s.c.ExecutorConfigurationSupport [JavaFX Application Thread] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-06 13:44:43,808 INFO m.j.b.i.o.c.Cpbelcar [main] ending!
