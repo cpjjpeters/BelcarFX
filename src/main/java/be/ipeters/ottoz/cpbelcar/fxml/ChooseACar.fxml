@@ -12,7 +12,7 @@
 <AnchorPane prefHeight="409.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.be.ipeters.ottoz.cpbelcar.controllers.ChooseACarController">
 
     <children>
-      <TabPane fx:id="tabPane" layoutX="260.0" layoutY="72.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+      <TabPane fx:id="tabPane" layoutX="60.0" layoutY="72.0" prefHeight="200.0" prefWidth="500.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
             <fx:include fx:id="consoleTab" source="tabs/ConsoleTab.fxml" />
             <fx:include fx:id="LoggerTab" source="tabs/LoggerTab.fxml" />

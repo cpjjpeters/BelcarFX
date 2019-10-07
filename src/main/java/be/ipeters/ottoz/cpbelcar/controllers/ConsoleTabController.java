@@ -29,7 +29,7 @@ public class ConsoleTabController {
     private TabPaneManager tabManager;
 
     public void initialize() {
-        ObservableList<String> missions = FXCollections.observableArrayList("Car2", "Car3", "Car4", "Car1");
+        ObservableList<String> missions = FXCollections.observableArrayList("Car1","Car2", "Car3", "Car4");
         missionsList.setItems(missions);
     }
 

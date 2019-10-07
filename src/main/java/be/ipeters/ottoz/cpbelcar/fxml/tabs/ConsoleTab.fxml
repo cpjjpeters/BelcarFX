@@ -22,7 +22,7 @@
                                     <children>
                                         <AnchorPane prefHeight="32.0" prefWidth="235.0">
                                             <children>
-                                                <Label graphicTextGap="0.0" prefHeight="30.0" prefWidth="114.0" text="Missions" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+                                                <Label graphicTextGap="0.0" prefHeight="30.0" prefWidth="114.0" text="Cars" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
                                             </children>
                                         </AnchorPane>
                                         <ListView fx:id="missionsList" onMouseClicked="#onMouseClicked" prefHeight="246.0" prefWidth="235.0" VBox.vgrow="ALWAYS">
