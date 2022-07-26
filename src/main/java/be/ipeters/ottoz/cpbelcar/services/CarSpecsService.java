@@ -1,5 +1,6 @@
 package main.java.be.ipeters.ottoz.cpbelcar.services;
 
+import main.java.be.ipeters.ottoz.cpbelcar.domain.CarTypes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
